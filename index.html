@@ -1,0 +1,331 @@
+<html>
+
+<head>
+    <title>
+        Sleeper Manz
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0b0d3a;
+            background: url(./img/Landing\ Page\ BG-03-02.png);
+            background-size: cover;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1550px;
+            margin: 0 auto;
+            padding: 20px;
+            gap: 150px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .header img {
+            width: 150px;
+        }
+
+        .header nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .header nav a {
+            color: white;
+            margin-left: 70px;
+            text-decoration: none;
+        }
+
+        #contact-button {
+            display: inline-block;
+            background-size: contain;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .hero .btn {
+            display: flex;
+            justify-content: flex-end;
+            width: auto;
+            height: auto;
+            background-size: contain;
+            text-decoration: none;
+            border: none;
+        }
+
+        .develop {
+            display: flex;
+            flex-direction: column;
+            margin: 20% 0 20%;
+        }
+
+        .section-title {
+            font-size: 50px;
+            text-align: center;
+            margin: 0 0 40px;
+        }
+
+        .section-descripe {
+            font-size: 25px;
+            text-align: center;
+            margin: 20px 20% 40px;
+        }
+
+        .section-text {
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: lighter;
+            text-align: center;
+            margin: 0 36% 100px;
+
+        }
+
+        .games,
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .services-content {
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 45%;
+            gap: 50px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 286px;
+            height: 62px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 30px;
+            margin: 15px;
+        }
+
+        .card p {
+            margin: 0 0 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .card .btn {
+            display: block;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            margin: 10% 10px 10px 10px;
+            padding: 40px 20px;
+            text-align: start;
+            gap: 70px;
+        }
+
+        .footer .footer-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .footer a {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+
+        .footer .footer-title-contact {
+            font-size: 35px;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img id="Logo" alt="Sleeper Manz Logo" height="70" src="./img/LPA__Logo_Vertical.png" width="150" />
+            <nav>
+                <a href="#" class="scroll-link" data-target="section1">About Us</a>
+                <a href="#" class="scroll-link" data-target="section2">Game</a>
+                <a href="#" class="scroll-link" data-target="section3">Services</a>
+                <a id="contact-button" href="#" class="scroll-link" data-target="section4"><img src="./img/LPA__Contact_Link.png" alt="contant"></a>
+            </nav>
+        </header>
+        <section id="section1" class="hero">
+            <h1>
+                Make Game From Dream Into Reality
+            </h1>
+            <p>
+                At Sleeper Manz, we believe that every game begins as a dream—something imagined in the quiet moments of
+                rest. These dreams, though fleeting, are full of untapped potential. Our mission is to capture these
+                fleeting visions and transform them into interactive experiences, bringing the impossible to life and
+                letting players explore the worlds once confined to imagination.
+            </p>
+            <div class="btn">
+                <a href="#" style="cursor: pointer;">
+                    <img src="./img/LPA__AboutUs_Link.png" alt="Fiverr">
+                </a>
+            </div>
+        </section>
+        <section id="section2" class="develop">
+            <h2 class="section-title">
+                The Game What We Develop
+            </h2>
+            <p class="section-text">
+                The games we are currently developing are on the production line, so stay tuned.
+            </p>
+            <div class="games">
+                <div class="card">
+                    <!-- <img alt="Game Image 1" height="200" width="300" src="" /> -->
+                    <div style="height: 461; width: 297; background-color: #0b0d3a; margin: 10px; border-radius: 10px;">
+                    </div>
+                    <h3>
+                        Block Flow
+                    </h3>
+                    <p>
+                        Android
+                        <br />
+                        TBA
+                    </p>
+                </div>
+                <div class="card">
+                    <!-- <img alt="Game Image 2" height="200" width="300" src="" /> -->
+                    <div style="height: 461; width: 297; background-color: #0b0d3a; margin: 10px; border-radius: 10px">
+                    </div>
+                    <h3>
+                        Last Hope: Emily
+                    </h3>
+                    <p>
+                        PC Windows
+                        <br />
+                        TBA
+                    </p>
+                </div>
+                <div class="card">
+                    <!-- <img alt="Game Image 1" height="200" width="300" src="" /> -->
+                    <div style="height: 461; width: 297; background-color: #0b0d3a; margin: 10px; border-radius: 10px">
+                    </div>
+                    <h3>
+                        Monster Goes Away
+                    </h3>
+                    <p>
+                        Android
+                        <br />
+                        TBA
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="section3" class="services-content">
+            <h2 class="section-title">
+                Services
+            </h2>
+            <div class="services">
+                <div class="card">
+                    <!-- <img alt="Service Image 1" height="200" src="" width="300" /> -->
+                    <div style="height: 330; width: 565; background-color: #0b0d3a; margin: 5px; border-radius: 10px">
+                    </div>
+                    <h3>
+                        I Will Create a 2D Asset For Your Game
+                    </h3>
+                    <a class="btn" href="#">
+                        <img src="./img/LPA__Sevices_Link.png" alt="link" width="200px">
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- <img alt="Service Image 2" height="200" src="" width="300" /> -->
+                    <div style="height: 330; width: 565; background-color: #0b0d3a; margin: 5px; border-radius: 10px">
+                    </div>
+                    <h3>
+                        I Will Create a 2D Asset For Your Game
+                    </h3>
+                    <a class="btn" href="#">
+                        <img src="./img/LPA__Sevices_Link.png" alt="link" width="200px">
+                    </a>
+                </div>
+            </div>
+            <p class="section-descripe">
+                Through our Fiverr services, we're here to help you bring your dream projects to life. Just like a
+                beautiful dream that lingers after sleep, we take your visions and transform them into something
+                real—something you can see, touch, and remember. Let us turn your dreams into visual creations that will
+                live on, long after the dream ends.
+            </p>
+        </section>
+        <footer id="section4" class="footer">
+            <img alt="Sleeper Manz Logo" src="./img/LPA__Logo_Normal.png" />
+            <div class="footer-content">
+                <p class="footer-title-contact">
+                    Contact
+                </p>
+                <a>
+                    X
+                </a>
+                <a>
+                    Instagram
+                </a>
+                <a>
+                    Fiverr
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
